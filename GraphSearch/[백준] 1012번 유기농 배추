@@ -21,7 +21,7 @@ void reset() {
 	num = 0;
 }
 
-void BFS(int x,int y) {
+void BFS(int x, int y) {
 	visited[x][y] = 1;
 	q.push(make_pair(x, y));
 
