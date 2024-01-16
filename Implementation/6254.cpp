@@ -12,7 +12,7 @@ int main() {
 		for (int j = 0; j < 2; j++) {
 			a += B[j]; b += A[j]; c += B[j + 3]; d += A[j + 3];
 		}
-		// 문자열을 정수로 바꿔 계산
+		// 문자열을 정수로 바꿔 계산 
 		int e = stoi(a); int f = stoi(b); int g = stoi(c); int h = stoi(d);
 		total += (e - f) * 60 + (g - h);
 	}
